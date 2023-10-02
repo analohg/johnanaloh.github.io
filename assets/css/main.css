@@ -198,6 +198,14 @@ input, select, textarea {
 			margin: 0 0 2rem 0;
 		}
 
+		/* Responsive styling for .major on mobile devices */
+		@media (max-width: 768px) {
+    			h4.major, h5.major, h6.major {
+        		width: 100%; /* Make the text full-width */
+        		margin: 0 0 1rem 0; /* Adjust margin for spacing */
+    	 		}
+		}
+		
 	h1 {
 		font-size: 2.25rem;
 		line-height: 1.3;
